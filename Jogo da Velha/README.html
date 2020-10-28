@@ -1,0 +1,62 @@
+<DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="readme.js"></script>
+	<title>Jogo da Velha</title>
+</head>
+<body>
+
+	<div class="header">
+		<img src="jogo-da-velha.png" width= "auto" height= "50%"/>
+		<h1>Jogo da Velha</h1>
+	</div>
+	
+    <footer class="footer navbar-fixed-bottom text-center" >
+		Teste DTI Digital - Marina Rocha Maia - 2020
+    </footer>
+	
+	<div class="regras">
+		<h3>Regras do Jogo:</h3>
+		<p>
+			O jogo da velha é um jogo tradicional, onde dois jogadores devem competir.<br>
+			O objetivo é colocar 3 símbolos iguais numa mesma linha, coluna ou diagonal. Os símbolos são o 'X' ou a 'O'.<br>
+			O jogador que completar 3 casas em sequência com seu símbolo é o campeão.<br>
+		</p>
+
+		<div class="container">
+		  <div class="col-sm-4 col-sm-offset-1">
+			<div class="row text-center">
+			  <br>
+			  <img src="1.png" width="5%" height="auto" alt="x"/> <br>
+			  <span id="jogador1">Player 1</span>
+			  <br>
+			  <button class="btn btn-danger" onclick="editarJogador1()">Editar nome</button>
+				<br>
+			</div>
+		  </div>
+
+		  <div class="col-sm-4 col-sm-offset-1">
+			<div class="row text-center">
+			  <br>
+			  <img src="2.png" width="6%" height="auto" alt="o"/><br>
+			  <span id="jogador2">Player 2</span>
+			  <br>
+			  <button class="btn btn-success" onclick="editarJogador2()">Editar nome</button>
+			</div>
+		  </div>
+    </div>
+	
+	<br>
+	<br>
+	
+	<div class="container" align="center">
+		<a href="jogo.html" target="_blank">
+			<img width="100" height="100" src="play.png">
+		</a>
+		<h3>Jogar</h3>
+	</div>
+</body>
+</html>
